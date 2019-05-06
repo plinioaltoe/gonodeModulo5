@@ -10,6 +10,7 @@ module.exports = {
   dialect: process.env.DB_DIALECT || "sqlite",
   storage: process.env.DB_STORAGE || "./__tests__/database.sqlite",
   operatorsAliases: "false",
+  logging: false,
   define: {
     timestamps: true,
     underscored: true,
